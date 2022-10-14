@@ -1,0 +1,100 @@
+.more-icon {
+    position: absolute;
+    top: 64px;
+    right: 18px;
+    z-index: 2;
+}
+
+.playlist-title-song {
+    align-self: center;
+    margin: 67px 0px 76px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.song-img {
+    margin-bottom: 59px;
+    height: 366px;
+    width: 366px;
+    align-self: center;
+    z-index: 2;
+}
+
+.song-title {
+    margin: 0px 26px 6px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -0.045em;
+    color: #FFFFFF;
+}
+
+.artists {
+    margin: 0px 26px 17px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: -0.045em;
+    color: #BBBBBA;
+}
+
+.time-line {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    background: #474747;
+    border-radius: 62px;
+    width: 366px;
+    height: 4px;
+}
+
+.dot {
+    align-self: center;
+    width: 13px;
+    height: 13px;
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+
+.time-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 1px 24px 17px;
+}
+
+.time {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: right;
+    color: #BABABA;
+}
+
+.player {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 26px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pause-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 63px;
+    height: 63px;
+    background: #FFFFFF;
+    border-radius: 50%;
+}

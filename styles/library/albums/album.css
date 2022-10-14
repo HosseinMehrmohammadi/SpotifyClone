@@ -1,0 +1,139 @@
+.fade-album {
+    position: absolute;
+    width: 594px;
+    height: 594px;
+    left: -137px;
+    top: -228px;
+    background: #337183;
+    filter: blur(100px);
+    z-index: 1;
+}
+
+.shuffle-button-album {
+    display: flex;
+    position: absolute;
+    top: 460px;
+    right: 28px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    justify-content: center;
+}
+
+.album-img {
+    margin: 69px 0px 17px;
+    height: 272px;
+    width: 272px;
+    align-self: center;
+    z-index: 2;
+}
+
+.album-img > img {
+    height: 272px;
+    width: 272px;
+}
+
+.album-name {
+    margin: 0px 16px 10px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.album-music {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.artist-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 16px 10px;
+    column-gap: 8px;
+    z-index: 2;
+}
+
+.artist-pic {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.artist-name {
+    margin: 0px;
+    align-self: center;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.3px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.album-date {
+    margin: 0px 16px 13px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    color: #B1B4B4;
+    z-index: 2;
+}
+
+.like-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+    margin: 0px 15px 24px;
+    align-content: center;
+    z-index: 2;
+}
+
+.play-button {
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    background: #57B560;
+}
+
+.album {
+    overflow-y: scroll;
+    height: 364px;
+    margin: 0px;
+    margin-left: 16px;
+    margin-right: 14px;
+    list-style: none;
+    padding: 0px;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    scrollbar-width: none;
+}
+
+.album::-webkit-scrollbar {
+    display: none;
+}
+
+.music {
+    display: flex; 
+    flex-direction: column; 
+    row-gap: 2px; 
+    width: 366px;
+}
+
+.download {
+    display: flex; 
+    flex-direction: row; 
+    column-gap: 8px;
+}

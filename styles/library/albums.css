@@ -1,0 +1,77 @@
+.tab {
+    display: flex;
+    flex-direction: row;
+    margin-left: 16px;
+    column-gap: 31px;
+    margin-bottom: 16px;
+}
+
+.tab > a {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.5px;
+    line-height: 20px;
+    letter-spacing: -0.04em;
+    color: #7F7F7F;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+.search-wrapper-small {
+    display: flex;
+    flex-direction: row;
+    height: 36px;
+}
+
+.search-container-small {
+    width: 310px;
+    align-self: flex-end;
+    margin-left: 16px;
+    display: flex;
+    background: #282828;
+    border-radius: 5px;
+    height: 36px;
+}
+
+.search-small {
+    margin-left: 7px;
+    background: transparent;
+    margin-right: 16px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11.5px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    border: none;
+}
+
+.search-small::placeholder {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11.5px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    color: #B3B3B3;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+    margin: 72px 13px 21px;
+}
+
+.title-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
